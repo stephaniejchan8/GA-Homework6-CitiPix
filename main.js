@@ -55,13 +55,16 @@ function obtainInput(e) {
 
   // Switch version of conditional statement to compare userInput to list of cities
   switch (userInput) {
-    case "nyc" || "new york city":
+    case "nyc":
+    case "new york city":
       document.body.setAttribute('class', 'nyc');
       break;
-    case "sf" || "san francisco":
+    case "sf":
+    case "san francisco":
       document.body.setAttribute('class', 'sf');
       break;
-    case "la" || "los angeles":
+    case "la":
+    case "los angeles":
       document.body.setAttribute('class', 'la');
       break;
     case "austin":
